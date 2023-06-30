@@ -28,7 +28,7 @@ public class ImageUploadController {
 		try {
 			imageUploadService.uploadImage(file);
 		} catch(IOException e) {
-			return "error";
+			return "errors";
 		}
 		return "Upload Image Successfully";
 	}
