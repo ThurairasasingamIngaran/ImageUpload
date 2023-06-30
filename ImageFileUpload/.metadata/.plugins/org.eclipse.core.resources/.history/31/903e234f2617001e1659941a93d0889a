@@ -1,0 +1,5 @@
+package com.example.ImageFileUpload.service;
+
+public interface ImageUploadService {
+
+}
